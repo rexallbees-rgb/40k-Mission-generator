@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40k Mission Generator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>40K Mission Generator</h1>
+        <p>10th Edition Style</p>
+        
+        <div id="mission-card" class="card">
+    <div class="section">
+        <h3>Deployment</h3>
+        <strong id="deployment">Click to roll...</strong>
+        <p id="deployment-desc" class="desc-text"></p>
+    </div>
+    
+    <div class="section">
+        <h3>Primary Mission</h3>
+        <strong id="primary">---</strong>
+        <p id="primary-desc" class="desc-text"></p>
+    </div>
+    
+    <div class="section">
+        <h3>Mission Rule</h3>
+        <strong id="rule">---</strong>
+        <p id="rule-desc" class="desc-text"></p>
+    </div>
+</div>
+
+        <button onclick="generateMission()">Generate New Mission</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
